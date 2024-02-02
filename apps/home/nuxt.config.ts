@@ -19,7 +19,7 @@ export default defineNuxtConfig({
 
   i18n: {
     // if you are using custom path, default
-    vueI18n: isRootDir ? './node_modules/@crearis/theme-main/i18n.config.ts' : '../../node_modules/@crearis/theme-main/i18n.config.ts',
+    vueI18n: isRootDir ? './node_modules/@crearis/theme-proxy/i18n.config.ts' : '../../node_modules/@crearis/theme-proxy/i18n.config.ts',
   },
 
   nitro: {
