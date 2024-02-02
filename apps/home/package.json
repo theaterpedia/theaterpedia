@@ -14,8 +14,6 @@
     "generate": "nuxi generate",
     "lint": "nuxt typecheck && eslint .",
     "lint:fix": "nuxt typecheck && eslint . --fix",
-    "lint:vsf": "nuxt typecheck && eslint --ext .vue,.js,.ts .",
-    "lint:fix_vsf": "eslint --ext .vue,.js,.ts . --fix",
     "preview": "nuxi preview",
     "postinstall": "nuxi prepare",
     "test": "vitest run",
@@ -45,8 +43,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
-    "@crearis/data-proxy": "*",
-    "@crearis/theme-proxy": "*",
     "@crearis/typography": "^0.0.8",
     "@crearis/vue": "^0.0.8",
 

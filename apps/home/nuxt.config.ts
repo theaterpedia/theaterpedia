@@ -3,23 +3,18 @@ import { dirname } from 'node:path'
 import { defineNuxtConfig } from 'nuxt/config'
 
 const currentDir = dirname(fileURLToPath(import.meta.url))
-const isRootDir = !(currentDir.endsWith('apps/tp-template'))
+const isRootDir = !(currentDir.endsWith('apps/home'))
 
 export default defineNuxtConfig({
   extends: [
     'github:theaterpedia/theaterpedia-core/packages/theme#episodes/rename',
-    '@crearis/data-proxy',
+    'github:theaterpedia/theaterpedia-core/packages/data#episodes/rename',
   ],
   hooks: {
     close: (nuxt) => {
       if (!nuxt.options._prepare)
         process.exit()
     },
-  },
-
-  i18n: {
-    // if you are using custom path, default
-    vueI18n: isRootDir ? './node_modules/@crearis/theme-proxy/i18n.config.ts' : '../../node_modules/@crearis/theme-proxy/i18n.config.ts',
   },
 
   nitro: {
