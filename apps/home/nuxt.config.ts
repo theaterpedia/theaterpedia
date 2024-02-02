@@ -7,8 +7,8 @@ const isRootDir = !(currentDir.endsWith('apps/home'))
 
 export default defineNuxtConfig({
   extends: [
-    'github:theaterpedia/theaterpedia-core/packages/theme#episodes/rename',
-    'github:theaterpedia/theaterpedia-core/packages/data#episodes/rename',
+    '@crearis/theme-main',
+    '@crearis/data-main/',
   ],
 
   // related to i18n, see below, fix from pi (which issue?)
