@@ -7,7 +7,7 @@ const isRootDir = !(currentDir.endsWith('apps/tp-template'))
 
 export default defineNuxtConfig({
   extends: [
-    '@crearis/theme-proxy',
+    'github:theaterpedia/theaterpedia-core/packages/theme#episodes/rename',
     '@crearis/data-proxy',
   ],
   hooks: {
