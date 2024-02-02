@@ -27,7 +27,8 @@
   "scripts": {
     "prepare": "nuxi prepare",
     "lint": "nuxt typecheck && eslint .",
-    "lint:fix": "nuxt typecheck && eslint . --fix"
+    "lint:fix": "nuxt typecheck && eslint . --fix",
+    "postinstall": "nuxi prepare" 
   },
   "dependencies": {
     "@crearis/vue": "^0.0.8",

@@ -28,7 +28,7 @@
     },
     "codegen": {
       "outputs": []
-    },
+    },  
     "dev": {
       "cache": false
     },   

@@ -26,7 +26,8 @@
     "lint": "nuxt typecheck && eslint .",
     "lint:fix": "nuxt typecheck && eslint . --fix",
     "codegen": "graphql-codegen",
-    "predev": "yarn codegen"
+    "predev": "yarn codegen",
+    "postinstall": "nuxi prepare"    
   },
   "dependencies": {
     "@vue-storefront/nuxt": "~3.0.0",
