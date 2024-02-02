@@ -45,8 +45,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
-    "@crearis/data-main": "*",
-    "@crearis/theme-main": "*",
+    "@crearis/data-proxy": "*",
+    "@crearis/theme-proxy": "*",
     "@crearis/typography": "^0.0.8",
     "@crearis/vue": "^0.0.8",
 

@@ -15,7 +15,8 @@
     "test:watch": "cd apps/tp-template && yarn test:watch",
     "test:turbo": "turbo run test",
     "type-check": "turbo run type-check",
-    "codegen": "cd packages/data && yarn codegen"
+    "codegen": "cd packages/data && yarn codegen",
+    "postinall": "turbo run prepare"
   },
   "devDependencies": {
     "@crearis/eslint-config-custom": "*",

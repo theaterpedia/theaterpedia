@@ -1,7 +1,7 @@
 {
-  "name": "@crearis/data-main",
+  "name": "@crearis/data-proxy",
   "type": "module",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "license": "MIT",
   "main": "./nuxt.config.ts",
   "files": [
@@ -22,12 +22,9 @@
     "access": "public"
   },
   "scripts": {
+    "prepare": "nuxi prepare",
     "lint": "nuxt typecheck && eslint .",
     "lint:fix": "nuxt typecheck && eslint . --fix",
-    "lint:vsf": "nuxt typecheck && eslint --ext .vue,.js,.ts .",
-    "lint:fix_vsf": "eslint --ext .vue,.js,.ts . --fix",
-    "release": "release-it",
-    "test:deactivated": "vitest run",
     "codegen": "graphql-codegen",
     "predev": "yarn codegen"
   },
@@ -47,6 +44,7 @@
   "devDependencies": {
     "@nuxtjs/i18n": "8.0.0-rc.3",
     "nuxt-lodash": "^2.5.3",
+    "@antfu/eslint-config": "^2.6.3",    
     "@types/lodash-es": "^4.17.7",
     "@types/node": "^18",
     "@vite-pwa/nuxt": "^0.1.0",
@@ -58,7 +56,8 @@
     "cypress": "12.12.0",
     "cypress-real-events": "^1.10.0",
     "cypress-wait-until": "^2.0.0",
-    "eslint": "^8.50.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-format": "^0.1.0",    
     "eslint-plugin-prettier": "5.0.1",
     "happy-dom": "^11.0.0",
     "nuxt": "3.10.0",
