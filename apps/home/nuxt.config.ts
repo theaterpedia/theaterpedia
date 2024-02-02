@@ -7,8 +7,12 @@ const isRootDir = !(currentDir.endsWith('apps/home'))
 
 export default defineNuxtConfig({
   extends: [
-    '@crearis/theme-main',
-    '@crearis/data-main/',
+    // while developing, use from github, if stable, use from npm
+    // 
+    'github:theaterpedia/theaterpedia-core/packages/theme#episodes/main',
+    'github:theaterpedia/theaterpedia-core/packages/data#episodes/main',
+    // '@crearis/theme-main',
+    // '@crearis/data-main/',
   ],
 
   i18n: {
