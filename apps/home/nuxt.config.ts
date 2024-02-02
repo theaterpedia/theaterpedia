@@ -10,11 +10,18 @@ export default defineNuxtConfig({
     'github:theaterpedia/theaterpedia-core/packages/theme#episodes/rename',
     'github:theaterpedia/theaterpedia-core/packages/data#episodes/rename',
   ],
+
+  // related to i18n, see below, fix from pi (which issue?)
   hooks: {
     close: (nuxt) => {
       if (!nuxt.options._prepare)
         process.exit()
     },
+  },
+
+  i18n: {
+    // a bit strange, but it's the only way to make it work with the current setup (yarn build fails otherwise)
+    vueI18n: isRootDir ? './node_modules/@crearis/theme-main/i18n.config.ts' : '../../node_modules/@crearis/theme-main/i18n.config.ts',
   },
 
   nitro: {
