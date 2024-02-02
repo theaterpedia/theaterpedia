@@ -7,8 +7,8 @@ const isRootDir = !(currentDir.endsWith('apps/tp-template'))
 
 export default defineNuxtConfig({
   extends: [
-    '@crearis/theme-main',
-    '@crearis/data-main',
+    '@crearis/theme-proxy',
+    '@crearis/data-proxy',
   ],
   hooks: {
     close: (nuxt) => {
