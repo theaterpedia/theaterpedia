@@ -1,5 +1,9 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
+  // https://www.typescriptlang.org/tsconfig
+  // #TODO _05 enable fully-functional TypeScript support
+  // at the moment, typechecking is on yarn dev is disabled (see nuxt.config.ts)
+  // we have strange misbehaviour with typescript and nuxt here, maybe it's related to the nuxt layers, things like include/exclude are not working as expected
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
     "types": ["vitest/globals", "@vitest/expect", "@vite-pwa/nuxt", "@vue-storefront/sdk"]
