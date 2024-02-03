@@ -2025,10 +2025,10 @@
     "@vue-storefront/sdk" "~1.1.2"
     axios "^1.6.2"
 
-"@crearis/data-main@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@crearis/data-main/-/data-main-0.1.9.tgz#c8d2dc015bd53195b5c059079475f9ac3ae9fca6"
-  integrity sha512-vFmy//eyNAJN1o1UrEwmspHzPXAPFdfxKwRUVdreolryST1eVGIvzPZJrzHeQYrheMSi1P992+Alo0+caixSIQ==
+"@crearis/data-main@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@crearis/data-main/-/data-main-0.1.11.tgz#58faafc6341538bb85495d8c8853a95f27e6cf0c"
+  integrity sha512-LBDeLII/XXLpNmWmg8fLiImlYEuOqMRmDi67Wx9Fy79MwLXUZWHcsXGUHC+b+FKMnK9jx5q9LZKRvrG86GhGyw==
   dependencies:
     "@apollo/client" "^3.8.6"
     "@crearis/crearis-boilerplate-sdk" "~0.0.11"
@@ -2048,10 +2048,10 @@
     "@mertasan/tailwindcss-variables" "^2.5.2"
     "@storefront-ui/tw-plugin-peer-next" "2.3.1"
 
-"@crearis/theme-main@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@crearis/theme-main/-/theme-main-0.1.9.tgz#5dd66f1c24865b697bae034d3347f6b9e19aa624"
-  integrity sha512-m4HVvwyksgxphy2uM/SCN+yWP+OLtBYJrT5gLlWtoRNGAWDl52ampblWWBKwlHbtDzr4n3hl9lTijBzCGJSfBA==
+"@crearis/theme-main@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@crearis/theme-main/-/theme-main-0.1.11.tgz#5d4a01778100f4a826bd47d2ae987c5fcf4b969f"
+  integrity sha512-SfOSfZf1kjsGG+XyXIPQyb7UuHtbwIdnm8v0LHsRDc/TNsAuy0r52hlASO6MsJL2h1UdMzaZriVvkTCIZWgdxQ==
   dependencies:
     "@crearis/vue" "^0.0.8"
     "@nuxtjs/tailwindcss" "^6.8.0"

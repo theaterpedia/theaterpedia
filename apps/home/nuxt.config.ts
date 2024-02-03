@@ -15,6 +15,10 @@ export default defineNuxtConfig({
     // '@crearis/data-main/',
   ],
 
+  typescript: {
+    typeCheck: false
+  },
+
   i18n: {
     // a bit strange, but it's the only way to make it work with the current setup (yarn build fails otherwise)
     vueI18n: isRootDir ? './node_modules/@crearis/theme-main/i18n.config.ts' : '../../node_modules/@crearis/theme-main/i18n.config.ts',
