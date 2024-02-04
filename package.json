@@ -8,7 +8,7 @@
     "build": "turbo run build --filter=home",
     "release": "turbo run release --concurrency=1",
     "generate": "turbo run generate",
-    "dev": "turbo run dev --filter=home",
+    "dev": "cd apps/home && yarn dev",
     "dev:all": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
@@ -30,6 +30,6 @@
   ],
   "packageManager": "yarn@1.22.19",
   "engines": {
-    "node": ">=v20.0.0"
+    "node": ">=v18.18.0"
   }
 }

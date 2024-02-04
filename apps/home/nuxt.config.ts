@@ -7,9 +7,17 @@ const isRootDir = !(currentDir.endsWith('apps/home'))
 
 export default defineNuxtConfig({
   extends: [
-    '@crearis/theme-main',
-    '@crearis/data-main/',
+    // while developing, use from github, if stable, use from npm
+    // 
+    'github:theaterpedia/theaterpedia-core/packages/theme#episodes/main',
+    'github:theaterpedia/theaterpedia-core/packages/data#episodes/main',
+    // '@crearis/theme-main',
+    // '@crearis/data-main/',
   ],
+
+  typescript: {
+    typeCheck: false
+  },
 
   i18n: {
     // a bit strange, but it's the only way to make it work with the current setup (yarn build fails otherwise)

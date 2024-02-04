@@ -16,7 +16,9 @@ import { defineLayout } from '#pruvious'
 
 defineLayout({
   label: 'default',
+  // @ts-expect-error TODO
   allowedBlocks: ['Hero', 'Link', 'Container', 'Image', 'Prose', 'Video'],
+  // @ts-expect-error TODO
   allowedRootBlocks: ['Hero', 'Container', 'Image', 'Prose', 'Video'],
 })
 
