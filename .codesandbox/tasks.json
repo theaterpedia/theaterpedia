@@ -11,28 +11,23 @@
   "tasks": {
     "clean": {
       "name": "clean",
-      "command": "yarn clean",
-      "runAtStart": false
+      "command": "yarn clean"
     },
     "start": {
       "name": "start",
-      "command": "yarn start",
-      "runAtStart": false
+      "command": "yarn start"
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "release": {
       "name": "release",
-      "command": "yarn release",
-      "runAtStart": false
+      "command": "yarn release"
     },
     "generate": {
       "name": "generate",
-      "command": "yarn generate",
-      "runAtStart": false
+      "command": "yarn generate"
     },
     "dev": {
       "name": "dev",
@@ -44,43 +39,35 @@
     },
     "dev:all": {
       "name": "dev:all",
-      "command": "yarn dev:all",
-      "runAtStart": false
+      "command": "yarn dev:all"
     },
     "lint": {
       "name": "lint",
-      "command": "yarn lint",
-      "runAtStart": false
+      "command": "yarn lint"
     },
     "lint:fix": {
       "name": "lint:fix",
-      "command": "yarn lint:fix",
-      "runAtStart": false
+      "command": "yarn lint:fix"
     },
     "test": {
       "name": "test",
-      "command": "yarn test",
-      "runAtStart": false
+      "command": "yarn test"
     },
     "test:watch": {
       "name": "test:watch",
-      "command": "yarn test:watch",
-      "runAtStart": false
+      "command": "yarn test:watch"
     },
     "test:turbo": {
       "name": "test:turbo",
-      "command": "yarn test:turbo",
-      "runAtStart": false
+      "command": "yarn test:turbo"
     },
     "type-check": {
       "name": "type-check",
-      "command": "yarn type-check",
-      "runAtStart": false
+      "command": "yarn type-check"
     },
     "codegen": {
       "name": "codegen",
-      "command": "yarn codegen",
-      "runAtStart": false
+      "command": "yarn codegen"
     }
   }
 }
