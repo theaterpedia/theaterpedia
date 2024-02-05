@@ -27,5 +27,4 @@ logs
 .autoload.sql
 .pruvious
 .ssh.*
-/.uploads
 pruvious.db-journal
