@@ -67,7 +67,7 @@ const NuxtLink = resolveComponent('NuxtLink')
       <template #suffix>
         <SfIconExpandMore class="hidden lg:block" />
       </template>
-      <span class="hidden lg:flex whitespace-nowrap">Cat: Women</span>
+      <span class="hidden lg:flex whitespace-nowrap">Portal</span>
     </SfButton>
     <NuxtLazyHydrate when-visible>
       <UiSearch class="hidden md:block flex-1" />
