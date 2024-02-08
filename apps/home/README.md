@@ -1,4 +1,4 @@
-# Theaterpedia-Core: Home
+# next.dasei.eu
 
 This is the default website-template for usage whilst actively developing on the layers for theaterpedia.
 This template mocks a simple Homepage of a small initiative in the field of drama-in-education
